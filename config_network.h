@@ -1,16 +1,16 @@
 // enter the SSIDs and passwords of as many networks you wish to try to connect to.
-const int maxSsids = 4;
+const int maxSsids = 1;
 
 // There must be the same number of entities (specified above) in each of the following arrays
 
-const String ssids[maxSsids] = {"Network1", "Network2", "Network3", "Network4"};
-const String passwords[maxSsids] = {"password1", "password2", "password3", "password4"};
+const String ssids[maxSsids] = {"DCCEX_2a4f4d"};
+const String passwords[maxSsids] = {"stevetrain"};
 
-const String turnoutPrefixes[maxSsids] = {"NT", "NT", "NT", "NT"};  // required if you wish to use turnouts  
+const String turnoutPrefixes[maxSsids] = {"NT"};  // required if you wish to use turnouts  
 // this the prefix of all turnout system names for YOUR system, for the wiThrottle servers on the the networks above
 // note: for DCC-EX EX-CommandStations, the corresponing value should be blank (i.e. "")
 
-const String routePrefixes[maxSsids] = {"IO:AUTO:", "IO:AUTO:", "IO:AUTO:", "IO:AUTO:"};  // required if you wish to use routes  
+const String routePrefixes[maxSsids] = {"IO:AUTO:"};  // required if you wish to use routes  
 // this is the prefix of all route system names for YOUR system, for the wiThrottle servers on the  networks above
 
 // If defined this must be of the form 999999999999:99999  e.g. "19216800400102560" equals 192.168.004.001:2560
